@@ -23,7 +23,7 @@ Please include any additional information in the Readme file.
 
 ## To run the application:
 - npm install
-- npm start
+- npm start <br>
 Alternatively (to npm start)
 - node index.js --searchTerm "Enter Your Desired Joke Search Term"
 - node index.js --leaderboard (to view the most popular joke)
