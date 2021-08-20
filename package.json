@@ -1,0 +1,30 @@
+{
+  "name": "JokeLand",
+  "version": "1.0.0",
+  "description": "A NodeJS command line tool to fetch jokes based on a search term",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulkitguptajmi/joke-land.git"
+  },
+  "keywords": [],
+  "author": "Pulkit Pradeep Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulkitguptajmi/joke-land/issues"
+  },
+  "homepage": "https://github.com/pulkitguptajmi/joke-land/blob/main/README.md",
+  "dependencies": {
+    "prompt": "^1.1.0",
+    "prompts": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
