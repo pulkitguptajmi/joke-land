@@ -24,5 +24,8 @@ Please include any additional information in the Readme file.
 ## To run the application:
 - npm install
 - npm start
+Alternatively (to npm start)
+- node index.js --searchTerm "Enter Your Desired Joke Search Term"
+- node index.js --leaderboard (to view the most popular joke)
 
 ## A running version of the code can be viewed online at: https://replit.com/@pulkitjmi/joke-land
