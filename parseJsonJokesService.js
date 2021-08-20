@@ -28,6 +28,7 @@ module.exports = (jsonJokes) => {
         }
     }catch (error) {
         console.log({ error: error, jsonJokes: jsonJokes });
+        console.log("There seems to be an error with the JSON response received from server. Pl try running the application again");
     }
 
     return { linesOfJokeExtractedFromJsonResponse, numberOfPages, allJokesArray};
